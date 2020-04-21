@@ -10,4 +10,4 @@ async def on_message(message):
         return
     if message.content == "Hello":
         await client.send_message(message.channel, "World")
-client.run('NzAxOTg0MjgzNjUyMzkwOTMy.Xp5eGg.VGUpb6cQHYGs62gZrTtFkCJWZjk')
+client.run('TOKEN')
